@@ -1,179 +1,286 @@
 #month_sale_bar {
-	position: fixed!important;
-	left: 0!important;
-	right: 0!important;
-	top: 0!important;
-	z-index: 2000000000!important;
-	background: #00032c!important;
-	text-align: center!important;
-	font-family: 'Montserrat', sans-serif!important;
-	background: url(../index-1.html) no-repeat top left, url(../index-1.html) no-repeat top right, #000;!important;
-	line-height: 1.2!important;
-	-webkit-font-smoothing: antialiased!important;
-	-moz-osx-font-smoothing: grayscale!important;
+    position: fixed !important;
+    left: 0 !important;
+    right: 0 !important;
+    top: 0 !important;
+    z-index: 2000000000 !important;
+    background: #00032c !important;
+    text-align: center !important;
+    font-family: 'Montserrat', sans-serif !important;
+    background: url(../index-1.html) no-repeat top left, url(../index-1.html) no-repeat top right, #000;
+!important;
+    line-height: 1.2 !important;
+    -webkit-font-smoothing: antialiased !important;
+    -moz-osx-font-smoothing: grayscale !important;
 }
+
 .month_sale_bar_container {
-	max-width: 1100px!important;
-	margin: 0 auto!important;
+    max-width: 1100px !important;
+    margin: 0 auto !important;
 }
 
 #month_sale_bar * {
-	box-sizing: border-box!important;
-	margin: 0!important;
-	padding: 0!important;
+    box-sizing: border-box !important;
+    margin: 0 !important;
+    padding: 0 !important;
 }
 
 #month_sale_bar .title {
-	text-transform: uppercase!important;
-	color: #fff!important;
-	font-weight: 800!important;
-	font-size: 30px!important;
-	display: inline-block!important;
-	vertical-align: middle!important;
+    text-transform: uppercase !important;
+    color: #fff !important;
+    font-weight: 800 !important;
+    font-size: 30px !important;
+    display: inline-block !important;
+    vertical-align: middle !important;
 }
 
 #month_sale_bar .month_sale--inner {
-	display: inline-block!important;
-	vertical-align: middle!important;
-	color: #FF0000!important;
-	font-size: 30px!important;
-	font-weight: 800!important;
-	line-height: 57px!important;
-	margin-left: 72px!important;
-	margin-right: 72px!important;
-	position: static !important;
-	/*table-layout:  !important;*/
-	width: auto !important;
-	transform: none!important;
+    display: inline-block !important;
+    vertical-align: middle !important;
+    color: #FF0000 !important;
+    font-size: 30px !important;
+    font-weight: 800 !important;
+    line-height: 57px !important;
+    margin-left: 72px !important;
+    margin-right: 72px !important;
+    position: static !important;
+    /*table-layout:  !important;*/
+    width: auto !important;
+    transform: none !important;
 }
 
 #month_sale_bar .month_sale--inner span {
-	font-size: 40px!important;
-		line-height: 44px!important;
-		margin-left: 8px!important;
-		vertical-align: middle!important;
-		display: inline-block!important;
+    font-size: 40px !important;
+    line-height: 44px !important;
+    margin-left: 8px !important;
+    vertical-align: middle !important;
+    display: inline-block !important;
 }
 
 .month_sale_bar-button {
-	display: inline-block!important;
-	text-transform: uppercase!important;
-	vertical-align: middle!important;
-	text-decoration: none!important;
-	color: #fff!important;
-	font-weight: 800!important;
-	font-size: 16px!important;
-	height: 40px!important;
-	line-height: 40px!important;
-	border-radius: 30px!important;
-	text-align: center!important;
-	width: 100%!important;
-	max-width: 280px!important;
-	background: #FF0000!important;
-	border: none!important;
-	padding: 0!important;
-	cursor: pointer;
+    display: inline-block !important;
+    text-transform: uppercase !important;
+    vertical-align: middle !important;
+    text-decoration: none !important;
+    color: #fff !important;
+    font-weight: 800 !important;
+    font-size: 16px !important;
+    height: 40px !important;
+    line-height: 40px !important;
+    border-radius: 30px !important;
+    text-align: center !important;
+    width: 100% !important;
+    max-width: 280px !important;
+    background: #FF0000 !important;
+    border: none !important;
+    padding: 0 !important;
+    cursor: pointer;
 }
 
 .with-sale-block {
-	padding-top: 57px!important;
+    padding-top: 57px !important;
 }
 
 #month_sale_bar .close-icon {
-    color: #c3eeff!important;
-    font-size: 26px!important;
-    position: absolute!important;
-    font-weight: bold!important;
-    right: 32px!important;
-    width: 32px!important;
-    top: 50%!important;
-    transform: translateY(-50%)!important;
-    height: 32px!important;
-    border: 2px solid!important;
-    line-height: 28px!important;
-    border-radius: 20%!important;
-    text-align: center!important;
-    display: inline-block!important;
-    transition: color .2s ease-in-out!important;
-    cursor: pointer!important;
+    color: #c3eeff !important;
+    font-size: 26px !important;
+    position: absolute !important;
+    font-weight: bold !important;
+    right: 32px !important;
+    width: 32px !important;
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+    height: 32px !important;
+    border: 2px solid !important;
+    line-height: 28px !important;
+    border-radius: 20% !important;
+    text-align: center !important;
+    display: inline-block !important;
+    transition: color .2s ease-in-out !important;
+    cursor: pointer !important;
 }
 
 #month_sale_bar .close-icon:hover, #month_sale_bar .close-icon:active, #month_sale_bar .close-icon:focus {
-	color: #f00!important;
+    color: #f00 !important;
 }
 
 @media (max-width: 1400px) {
-	#month_sale_bar .month_sale--inner {
-		margin-left: 32px!important;
-		margin-right: 32px!important;
-		font-size: 22px!important;
-	}
+    #month_sale_bar .month_sale--inner {
+        margin-left: 32px !important;
+        margin-right: 32px !important;
+        font-size: 22px !important;
+    }
 
-	#month_sale_bar .month_sale--inner span {
-		font-size: 34px!important;
-	}
+    #month_sale_bar .month_sale--inner span {
+        font-size: 34px !important;
+    }
 
-	#month_sale_bar .title {
-		font-size: 24px!important;
-	}
+    #month_sale_bar .title {
+        font-size: 24px !important;
+    }
 }
 
 @media (max-width: 1080px) {
 
-	#month_sale_bar .title {
-		width: 100%!important;
-		text-align: center!important;
-	}
-	
-	#month_sale_bar {
-		padding-top: 16px!important;
-	}
-	#month_sale_bar .month_sale--inner {
-		margin-left: 0!important;
-	}
+    #month_sale_bar .title {
+        width: 100% !important;
+        text-align: center !important;
+    }
 
-	#month_sale_bar {
-		background: #000!important;
-	}
-	.with-sale-block {
-		padding-top: 117px!important;
-	}
+    #month_sale_bar {
+        padding-top: 16px !important;
+    }
 
-	#month_sale_bar .close-icon {
-		top: 24px!important;
-		right: 16px!important;
-		font-size: 22px!important;
-		width: 24px!important;
-		height: 24px!important;
-		line-height: 20px!important;
-	}
+    #month_sale_bar .month_sale--inner {
+        margin-left: 0 !important;
+    }
+
+    .with-sale-block {
+        padding-top: 100px !important;
+    }
+
+    #month_sale_bar .close-icon {
+        top: 24px !important;
+        right: 16px !important;
+        font-size: 22px !important;
+        width: 24px !important;
+        height: 24px !important;
+        line-height: 20px !important;
+    }
+}
+
+@media (max-width: 991px) {
+    .offer_section {
+        background: #182646 url("../img/ms/newV8.jpg") center top no-repeat;
+    }
+
+    .button {
+        margin: 20px auto;
+    }
+
+    .deadline_text {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .desc_wrapp {
+        display: none;
+    }
+
+    .mobile_img {
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+
+    .offer_section {
+        padding: 0;
+        background: transparent;
+        height: auto !important;
+    }
+
+    .functions_list, steps_list {
+        flex-wrap: wrap;
+    }
+
+    .func_section .function_item {
+        margin: 15px;
+        width: 36%;
+    }
+
+    .steps_list, .owl-stage {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .step_item, .owl-item {
+        width: 80% !important;
+    }
+
+    .order_steps_section .step_item img {
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .owl-item {
+        margin: 10px auto;
+    }
+
+    .characteristics_section img {
+        left: initial !important;
+        top: initial !important;
+        transform: initial !important;
+        border: none;
+        border-radius: 10px;
+        width: 100%;
+        height: 100%;
+    }
+
+    .chr_mob {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .chr_mob > h2 {
+        order: 1;
+    }
+
+    .main_title {
+        font-size: 50px;
+        line-height: 50px;
+        text-align: center;
+    }
+
+    .order_section .description {
+        text-align: center;
+        font-size: 16px;
+        line-height: 24px;
+        width: 100%;
+    }
+
+    .order_section .form_block {
+        margin: 20px auto;
+    }
+
+    .order_section .form_block {
+        width: 70%;
+    }
 }
 
 @media (max-width: 540px) {
-	#month_sale_bar_container  {
-		padding: 0 45px!important;
-	}
-	#month_sale_bar .month_sale--inner {
-		width: 100%!important;
-	}
+    #month_sale_bar_container {
+        padding: 0 45px !important;
+    }
 
-	#month_sale_bar .title  {
-		margin-bottom: 0!important;
-	}
+    #month_sale_bar .month_sale--inner {
+        width: 100% !important;
+    }
 
-	#month_sale_bar {
-		padding-bottom: 16px!important;
-	}
+    .order_section .form_block {
+        width: 90%;
+    }
 
-	#month_sale_bar .title {
-		font-size: 18px!important;
-	}
+    #month_sale_bar .title {
+        margin-bottom: 0 !important;
+    }
 
-	#month_sale_bar .month_sale--inner {
-		line-height: 1!important;
-	}
+    #month_sale_bar {
+        padding-bottom: 16px !important;
+    }
 
-	.with-sale-block {
-		padding-top: 138px!important;
-	}
+    #month_sale_bar .title {
+        font-size: 18px !important;
+    }
+
+    #month_sale_bar .month_sale--inner {
+        line-height: 1 !important;
+    }
+
+    .with-sale-block {
+        padding-top: 138px !important;
+    }
 }
