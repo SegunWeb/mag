@@ -4,7 +4,7 @@
 	right: 0!important;
 	top: 0!important;
 	z-index: 2000000000!important;
-	background: #000!important;
+	background: #00032c!important;
 	text-align: center!important;
 	font-family: 'Montserrat', sans-serif!important;
 	background: url(../index-1.html) no-repeat top left, url(../index-1.html) no-repeat top right, #000;!important;
@@ -27,7 +27,7 @@
 	text-transform: uppercase!important;
 	color: #fff!important;
 	font-weight: 800!important;
-	font-size: 34px!important;
+	font-size: 30px!important;
 	display: inline-block!important;
 	vertical-align: middle!important;
 }
@@ -48,7 +48,7 @@
 }
 
 #month_sale_bar .month_sale--inner span {
-	font-size: 50px!important;
+	font-size: 40px!important;
 		line-height: 44px!important;
 		margin-left: 8px!important;
 		vertical-align: middle!important;
@@ -80,7 +80,7 @@
 }
 
 #month_sale_bar .close-icon {
-    color: #fff!important;
+    color: #c3eeff!important;
     font-size: 26px!important;
     position: absolute!important;
     font-weight: bold!important;
@@ -91,7 +91,7 @@
     height: 32px!important;
     border: 2px solid!important;
     line-height: 28px!important;
-    border-radius: 50%!important;
+    border-radius: 20%!important;
     text-align: center!important;
     display: inline-block!important;
     transition: color .2s ease-in-out!important;
