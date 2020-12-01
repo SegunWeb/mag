@@ -126,7 +126,7 @@ h2 {
 }
 
 .offer_section .description {
-	margin: 0 480px 245px 0;
+	margin: 0 480px 40% 0;
 	font-weight: 700;
 	font-size: 18px;
 	color: #fff;
@@ -650,8 +650,8 @@ font-weight: 700;
 .order_steps_section .step_item h4:before {
 	display: block;
 	content: '';
-	width: 80px;
-	height: 80px;
+	width: 50px;
+	height: 50px;
 	-webkit-border-radius: 50%;
 	-moz-border-radius: 50%;
 	border-radius: 50%;
@@ -664,19 +664,19 @@ font-weight: 700;
 	position: absolute;
 	top: 50%;
 	margin-top: -40px;
-	left: 30px;
+	left: 15px;
 }
 
 .order_steps_section .step_item h4:after {
 	display: block;
 	content: '';
-	width: 80px;
-	height: 80px;
+	width: 50px;
+	height: 50px;
 	background: center no-repeat;
 	position: absolute;
 	top: 50%;
 	margin-top: -40px;
-	left: 30px;
+	left: 15px;
 }
 
 .order_steps_section .step_item:nth-child(1) h4:after {
@@ -1183,17 +1183,16 @@ font-weight: 700;
 		top: 410px;
 		left: 10px;
 	}
-
-
-
 }
+
+
 
 @media screen and (max-width: 639px) {
 	
 	/* styles */
 
 	.wrapper {
-		width: 320px;
+		width: 100%;
 	}
 
 	/* titles */
@@ -1366,8 +1365,8 @@ font-weight: 700;
 
 	.order_steps_section .step_item h4 {
 		margin: 0 0 25px;
-		padding: 10px 10px 10px 130px;
-		font-size: 20px;
+		padding: 10px 10px 10px 75px;
+		font-size: 16px;
 		line-height: 28px;
 		text-align: left;
 	}
@@ -1492,6 +1491,7 @@ footer {
 	margin: 0 10px;
 }
 .mobile_offer {
+	display: none;
 	background-color: #02031e;
 }
 p {margin: 0;}
@@ -1707,10 +1707,28 @@ p {margin: 0;}
 		line-height: 20px !important;
 	}
 }
+.mb-btn {
+	 display: none;
+	 margin: 20px auto 0 auto;
+}
+
+
+@media (max-width: 1650px) {
+	.offer_section .description {
+		margin: 0 480px 245px 0;
+	}
+}
+
 
 @media (max-width: 991px) {
 	.offer_section {
 		background: #182646 url("../img/ms/newV8.jpg") center top no-repeat;
+	}
+	.mobile_offer {
+		display: block;
+	}
+	.mb-btn {
+		display: block;
 	}
 
 	.button {
@@ -1765,9 +1783,11 @@ p {margin: 0;}
 		width: 80% !important;
 	}
 
-	.order_steps_section .step_item img,
-	.benefits_section .benefit_item img {
+	.order_steps_section .step_item img {
 		margin: 0 auto;
+		width: 100% !important;
+	}
+	.benefits_section .benefit_item img {
 		width: 100% !important;
 	}
 
